@@ -231,7 +231,8 @@ body.dark-mode {
 
 @media screen and (max-width: 550px) {
     .todo {
-        width: 350px;
+        margin-top: -50px;
+        width: 330px;
     }
     body {
         background-image: url("images/bg-mobile-light.jpg") ;
@@ -255,5 +256,11 @@ body.dark-mode {
     }
     .todo__item {
         font-size: 12px;
+    }
+    .todo__item img {
+        display: block;
+    }
+    .todo--h1 {
+        font-size: 25px;
     }
 }
