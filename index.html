@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preload" href="font/JosefinSans-Regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="font/JosefinSans-Bold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Todo app</title>
+</head>
+<body>
+  <div class="todo">
+    <header class="todo__head">
+      <h1 class="todo--h1">TODO</h1>
+      <div class="todo--mode">
+        <img src="images/icon-moon.svg" class="light" alt="moon">
+        <img src="images/icon-sun.svg" class="dark" alt="sun">
+      </div>
+    </header>
+    <div class="todo__add">
+      <input id="todo--check" type="checkbox" class="todo--check"></input>
+      <input class="todo--input" type="text" placeholder="Create a new todo...">
+      <button id="add">Add</button>
+    </div>
+    <ul class="todo__list">
+    </ul>
+    <footer class="todo__footer">
+      <div class="todo--item--num">
+        <span class="todo--num">5</span> items left
+      </div>
+      <div class="todo--filter inside">
+        <span class="all active">All</span>
+        <span class="leftIt">Active</span>
+        <span class="complete">Completed</span>
+      </div>
+      <div class="todo--clear">
+        Clear Completed
+      </div>
+    </footer>
+    <div class="todo--filter outside">
+      <span class="all active">All</span>
+      <span class="leftIt">Active</span>
+      <span class="complete">Completed</span>
+    </div>
+  </div> <!--/.todo-->
+  <div class="notes">Drag and drop to reorder list</div>
+  <script src="script.js"></script>
+</body>
+</html>
