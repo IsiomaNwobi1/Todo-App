@@ -1,5 +1,4 @@
-// localStorage.clear();
-// variables
+
 let list = document.querySelector( ".todo__list" );
 let add = document.getElementById( "add" );
 let clearbtn = document.querySelector( ".todo--clear" );
